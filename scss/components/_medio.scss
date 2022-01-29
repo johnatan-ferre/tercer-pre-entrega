@@ -13,6 +13,7 @@
     display: block;
     margin: auto;
 }
+
 /* fin video */
 
 .parrafo::selection {
@@ -67,5 +68,35 @@
         p {
             font-family: map-get($parrafo, font-family-parrafo);
         }
+    }
+}
+
+.img-hija {
+    @extend %flex;
+    align-items: center;
+    margin: auto;
+}
+
+.video-inyectado iframe {
+    @extend %flex;
+    width: 80%;
+    margin: auto;
+}
+
+.carousel-inner h5 {
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: map-get($parrafo, font-family-parrafo);
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.map-actividad {
+    @extend %flex;
+    align-items: center;
+    margin: auto;
+
+    iframe {
+        margin-top: 6em;
     }
 }
