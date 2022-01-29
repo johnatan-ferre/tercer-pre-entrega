@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- BS icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../css/style.css">
+
+    <!-- Google Fonts -->
+    <!-- Titulos -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <!-- Por algún motivo no puedo llamarlas desde el css con el @import, por el momento lo 
+    voy a dejar por este medio, que sé que no es el más óptimo-->
+
+
+    <title>Lugar X</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-propio">
+            <div class="container">
+                <a class="navbar-brand" href="../../index.html">
+                    <img src="../assets/img/logo.png" alt="Logo" class="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./lugares.html"">Lugares</a>
+                    </li>
+                    <li class=" nav-item">
+                                <a class="nav-link" href="../../index.html#nosotros">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../index.html#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div>
+        <h2 class="subtitulos">Nombre Lugar X</h2>
+    </div>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-xl-3">
+                <div class="img-hija">
+                    <img src="../assets/img/imgLugarX.jpg" alt="Imagen Lugar X">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-xl-9">
+                <div class="texto-hijo">
+                    <p class="parrafo"><b>Informacion lugar X</b>, Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Saepe nemo amet perferendis nam? Explicabo repudiandae minus unde totam doloremque
+                        dignissimos quas aliquid ex veniam recusandae, veritatis maiores obcaecati consequatur nisi.
+                        Illum eaque aspernatur necessitatibus, quisquam ipsum vitae in eos dicta explicabo repellendus,
+                        magnam esse corrupti beatae quo! Voluptatibus, dolorem. Sed fugit quam molestias blanditiis
+                        nihil, nulla explicabo quaerat vitae quis.
+                        Facere reprehenderit quisquam, voluptates, dolore commodi consequuntur est architecto atque esse
+                        temporibus eaque maxime distinctio laudantium. Nostrum ex recusandae, eos sapiente accusamus
+                        iure quod fugit consequatur hic dolore voluptatem voluptates!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="otro-fondo container-fluid">
+        <h2 class="subtitulos">Servicios</h2>
+        <div class="row">
+            <div class="col">
+                <div class="contenedor-enlaces">
+                    <div class="elemento-enlaces">
+                        <a href="../pages/actividades.html"><img src="../assets/img/icons/iconoActividades.png"
+                                alt="Actividades" width="60px" height="60px"></a>
+                        <p>Actividades</p>
+                    </div>
+                    <div class="elemento-enlaces">
+                        <a href="https://"><img src="../assets/img/icons/iconoComida.png" alt="Comida" width="60px"
+                                height="60px"></a>
+                        <!-- La idea es que lleve a un link externo donde haya informacion de la gastronomia
+                                    de la zona, como puede ser TripAdvisor o similar -->
+                        <p>Comida</p>
+                    </div>
+                    <div class="elemento-enlaces">
+                        <a href="https://"><img src="../assets/img/icons/iconoHospedaje.png" alt="Hospedaje"
+                                width="60px" height="60px"></a>
+                        <p>Hospedaje</p>
+                    </div>
+                    <!-- La idea es que lleve a un link externo donde haya informacion del hospedaje de la zona, como puede ser Booking, AirBnb o similar-->
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="container">
+        <h2 class="subtitulos">¿Cómo llegar?</h2>
+        <div class="row">
+            <div class="col">
+                <div class="contenedor-inyectado">
+                    <iframe src="https://maps.google.com" frameborder="0" width="100%" height="400px"></iframe>
+                </div>
+                <!-- Mapa de la zona del Lugar X en cuestion -->
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer class="bg-propio text-center text-black">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <h3>Síganos</h3>
+                <!-- Facebook -->
+                <a class="btn btn-outline-dark btn-floating m-1" href="https://facebook.com/idUsuario" target=_blank
+                    role="button">
+                    <i class="bi bi-facebook"></i>
+                </a>
+
+                <!-- Youtube -->
+                <a class="btn btn-outline-dark btn-floating m-1" href="https://youtube.com/idUsuario" target=_blank
+                    role="button">
+                    <i class="bi bi-youtube"></i>
+                </a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-dark btn-floating m-1" href="https://instagram.com/idUsuario" target=_blank
+                    role="button">
+                    <i class="bi bi-instagram"></i>
+                </a>
+
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.3);">
+            © 2022 Copyright:
+            <a class="text-black" href="https://github.com/johnatan-ferre">J. Ferré</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

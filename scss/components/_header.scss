@@ -1,0 +1,27 @@
+/* Logo */
+.logo {
+    width: 3em;
+    height: 3em;
+
+    transition: all 400ms ease-out;
+    animation-name: anim-logo;
+    animation-duration: 2000ms;
+
+    &:hover {
+        transform: scale(1.25);
+    }
+}
+@keyframes anim-logo {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+/* Fin Logo */

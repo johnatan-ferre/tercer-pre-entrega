@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Variables */
+body {
+  background-color: #B9F4D9;
+}
+body .otro-fondo {
+  background-color: #F0FFFF;
+}
+
+/* Logo */
+.logo {
+  width: 3em;
+  height: 3em;
+  transition: all 400ms ease-out;
+  animation-name: anim-logo;
+  animation-duration: 2000ms;
+}
+.logo:hover {
+  transform: scale(1.25);
+}
+
+@keyframes anim-logo {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+/* Fin Logo */
+
+/*# sourceMappingURL=style.css.map */
