@@ -1,7 +1,28 @@
 body {
-    background-color: #B9F4D9;
+    background-color: $verde-claro;
 
     .otro-fondo {
-        background-color: #F0FFFF;
+        background-color: $azure;
     }
+}
+.grid-container {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        'header'
+        'centro'
+        'footer';
+}
+
+.grid-uno {
+    grid-area: header;
+}
+
+.grid-dos {
+    grid-area: centro;
+}
+
+.grid-tres {
+    grid-area: footer;
 }

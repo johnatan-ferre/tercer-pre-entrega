@@ -1,3 +1,4 @@
+@import '../base/colores';
 /* Logo */
 .logo {
     width: 3em;
@@ -25,3 +26,7 @@
     }
 }
 /* Fin Logo */
+
+.bg-propio {
+    background-color: $verde-claro;
+}
