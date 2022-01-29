@@ -218,7 +218,7 @@ body .otro-fondo {
   display: flex;
   justify-content: space-around;
   text-align: center;
-  width: 80%;
+  width: 100%;
   margin: 0.5 auto;
 }
 .contenedor-enlaces a p {
@@ -249,6 +249,11 @@ body .otro-fondo {
 }
 .map-actividad iframe {
   margin-top: 6em;
+}
+
+.contenedor-centrado {
+  width: 80%;
+  margin: auto;
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
