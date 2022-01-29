@@ -1,0 +1,61 @@
+.subtitulos {
+    @extend %subtitulo;
+}
+
+.parrafo {
+    @extend %parrafo;
+}
+
+/* .parrafo::selection {
+    background-color: #3F913B;
+    color: #B9F4C9;
+}
+
+.linea-inicio {
+    width: 80%;
+    border-right: 2px solid rgba(240, 255, 255, .75);
+    white-space: normal;
+    overflow: hidden;
+    transform: translateY(.1%);
+
+}
+
+.texto-animado {
+    animation: escritura 750ms;
+}
+
+@keyframes escritura {
+    from {
+        width: 0;
+        border-right-color: rgba(255, 255, 255, .75);
+    }
+
+    to {
+        width: 80%;
+        border-right-color: transparent;
+    }
+
+} */
+
+#carrusel-bs {
+    width: 80%;
+    margin: 2em auto;
+}
+
+#nosotros, #contacto {
+    margin-top: 6em;
+}
+
+.contenedor-enlaces {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 80%;
+    margin: .5 auto;
+
+    a {
+        p {
+            font-family: map-get($parrafo, font-family-parrafo);
+        }
+    }
+}

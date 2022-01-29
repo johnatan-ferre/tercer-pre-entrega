@@ -2,3 +2,23 @@
     display: flex;
     justify-content: center;
 }
+
+%subtitulo {
+    color: #3F913B;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.125em;
+    font-weight: 600;
+    text-align: center;
+    margin: .5em auto;
+}
+
+%parrafo {
+    color: #433E3F;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.25em;
+    text-align: justify;
+    line-height: 1.4em;
+    word-spacing: 0.06em;
+    margin: .5em auto;
+    width: 80%;
+}
