@@ -1,7 +1,6 @@
 {
   "name": "desafio-sass",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +11,15 @@
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.15",
     "sass": "^1.49.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnatan-ferre/sass.git"
+  },
+  "bugs": {
+    "url": "https://github.com/johnatan-ferre/sass/issues"
+  },
+  "homepage": "https://github.com/johnatan-ferre/sass#readme",
+  "description": ""
 }
